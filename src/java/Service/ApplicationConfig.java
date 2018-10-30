@@ -29,6 +29,7 @@ public class ApplicationConfig extends Application {
         resources.add(Service.KlinikResource.class);
         resources.add(Service.LokasiResource.class);
         resources.add(Service.UserResource.class);
+        resources.add(service.PasienResource.class);
     }
     
 }
